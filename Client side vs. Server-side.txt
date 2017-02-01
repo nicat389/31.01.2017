@@ -1,0 +1,42 @@
+﻿								Client side vs. Server-side
+Web proqramlaşdırma 2 qrupda araşdırıla bilər:
+1) Server side programming
+2) Client Side programming
+Server side programming yaradılan web applicationun server hissəsində görülən əməliyyatlardır. Client side programming isə birbaşa istifadəçinin kompüterində əməliyyat görən hissədir.
+
+Client Side
+Kompüter browserində URL barına web adress yazdıqda kompüterimiz web serverdəki informasiyaya müraciət edərək onu aktlaşdırır. İnternet səhifələrindəki gördüyümüz şəkillər, musiqilər, videolar və s. hamısı servərdən gələrək browserə
+göndərilir. Browser gələn resursları toplayır və onları bizim görə biləcəyimiz şəkildə icra edir(run edir).
+
+Hər hansı bir şəxs bir neçə dəqiqə ərzində HTML və Javascriptdən istifadə edərək web application yarada bilər. Javascript əsas Client-side proqramlaşdırma dillərindən biridir.
+
+Client sidenin üstünlüyü ondan ibarətdir ki, client side kodlar əməliyyatları server-side kodlardan daha sürətli icra edir. Məsələn, buttona klik olunduqda menyu açılır. Client-side bunu həmin andaca həyata keçirir. Server side bunu
+həyata keçirdikdə əvvəlcə onun serverlə əlaqə saxlamasını gözləmək lazımdır.
+
+Client side proqramlaşdırmadan istifadə etmək saytı daha interaktiv edir. Saytdakı hər şey dinamik olur, istifadəçi və server arasında interfeys kimi işləyir, serverə müraciət göndərir, serverdən məlumat alır, client server proqram üçün
+uzaqdan access verir. Client side skript dillərinə misal olaraq JavaScript, Ajax, Css, HTML və s. misal göstərmək olar. Siz domainə daxil olduqda bəzi proseslər işləməyə başlayır:
+
+HTTP kimi GET müraciəti olunur. Yəni sayta daxil olduqda səhifəni ekrana gətirməsi üçün browserə mesaj göndərirsiniz
+
+Server prosesi yerinə yetirməyə başlayır. Əgər faylı tapsa nəticə 200 olaraq geri qayıdır. Nəticə 200 olduqda server istənilən səhifədəki kodları icra etməyə başlayır.
+
+Kodların icra olunmasından sonra meydana gələn nəticəni istifadəçi browser vasitəsilə görür 
+
+Server Side
+Server-Side programming məlumatı toplamaq və onları geri almaq bacarığı verir. Bu çox vacibdir. Digər tərəfdən Server side sizə kodların gizli qalmasını təmin edir.
+
+Server side texnologiyasına PHP və ASP.NET-i misal göstərmək olar. Server side kodlar web browserlər əvəzinə serverlərdə icra olunur. Server işləyərkən istifadəçi orda serverin necə işlədiyini bilə bilməz. Məsələn, ASP.NET-də qurulmuş 
+saytda şəkilin ölçüsünü dəyişmək üçün buttona click olunur. Buttona click olunduqda serverdə olan kodlar vasitəsilə şəkilin ölçüsü dəyişir.
+
+Server side müraciət olunan səhifələri göstərir, web səhifələri strukturlaşdırır, serverlər və yaddaşlarla qarşılıqlı əlaqədə olur, baza ilə qarşılıqlı əlaqədə olur. Proqramlaşdırma dilləri kimi C++, C#, Java, PHP və s.
+
+Server web səhifəyə aid olan faylları özündə saxlayan və bu faylları internetdə saxlamağa imkan verən kompüterdir. Bundan başa düşmək olar ki, serverlər kompüterlərdir. Server dinamik və ya statik ola bilər. Bu kompüterlər ev 
+kompüterlərdin bəzi xüsusiyyətlərinə görə fərqlənir. Məsələn:
+
+Serverlərdə proqramlaşdırma dillərini çalışdıra biləcək sistem mövcuddur.
+
+Serverlər istifadəçilərlə HTTP və ya HTTPS adlı transfer protokolları ilə əlaqə saxlayır
+
+Serverlər datacenter adlı yerlərdə saxlanılır. Burada serverlər hər gün açıqdır və nəticədə bu serverdə olan sayta 7/24 daxil ola bilərsiz. Datacenterdə internet sürəti 1Mbit-1Gbit arasında dəyişir.
+
+Faylları açması və müəyyən əməliyyatları yerinə yetirmək üçün HTTP və ya HTTPS protokolları ilə müraciət göndərən kliyentdir.
